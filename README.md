@@ -76,7 +76,7 @@ npm install
 Create a `.env` file in the frontend root:
 
 ```
-VITE_API_BASE_URL=http://127.0.0.1:8000
+VITE_API_BASE_URL=http://127.0.0.1:8000/
 ```
 
 4. Run development server
@@ -88,7 +88,7 @@ npm run dev
 5. Frontend runs at
 
 ```
-http://localhost:5173/
+http://localhost:3000/
 ```
 
 ---
@@ -115,7 +115,6 @@ http://localhost:5173/
   "description": "Optional description",
   "completed": false,
   "createdAt": "2026-03-29T11:09:48.659906Z",
-  "updatedAt": "2026-03-29T11:09:48.659906Z"
 }
 ```
 
@@ -149,5 +148,5 @@ http://localhost:5173/
 
 * Ensure backend is running before using the frontend
 * If the frontend shows a network error, verify the API base URL
-* If tasks fail to render, confirm API returns an array from `/tasks/`
+* If tasks fail to render, confirm API returns an array from `tasks/`
 
